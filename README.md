@@ -1,4 +1,4 @@
-# Simon Game
+# Newsletter Signup
 
 This is a solution to the Newsletter Signup challenge in [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) taught by Angelu Yu of [The App Brewery](https://appbrewery.com/).
 
