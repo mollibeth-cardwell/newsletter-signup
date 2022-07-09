@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 mailchimp.setConfig({
-  apiKey: "69029e6d819673e4faee4c176a887e5b-us14",
+  apiKey: "yourAPIkeyHere",
   server: "us14",
 });
 
@@ -28,7 +28,7 @@ app.post("/", function(req, res) {
   const firstName = req.body.fname;
   const lastName = req.body.lname;
   const email = req.body.email;
-  const listId = "3e5ece2f24";
+  const listId = "yourListIdHere";
 
   async function run() {
     try {
@@ -60,11 +60,3 @@ app.post("/failure", function(req, res) {
 app.listen(process.env.PORT || 3000, function() {
   console.log("Server running on port 3000");
 });
-
-
-// Audience ID
-// 3e5ece2f24
-
-
-// API Key
-// 69029e6d819673e4faee4c176a887e5b-us14
